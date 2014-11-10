@@ -9,7 +9,16 @@
 import Foundation
 
 extension String {
-    //buile settings/Objective-c bridging header/ +($(SRCROOT)/VKit/vkit-Bridging-Header.h)
+
+/**
+* @brief
+* 配置：buile settings/Objective-c bridging header/ +($(SRCROOT)/VKit/vkit-Bridging-Header.h)
+* Detailed
+* @param[in]
+* @param[out] N/A
+* @return
+* @note
+*/
     func md5() -> String! {
         let str = self.cStringUsingEncoding(NSUTF8StringEncoding)
         let strLen = CUnsignedInt(self.lengthOfBytesUsingEncoding(NSUTF8StringEncoding))

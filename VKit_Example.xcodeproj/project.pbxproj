@@ -16,6 +16,7 @@
 		F98A45CB1A10923000653F13 /* ExampleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98A45CA1A10923000653F13 /* ExampleController.swift */; };
 		F98A45D01A10947B00653F13 /* VEColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98A45CF1A10947B00653F13 /* VEColor.swift */; };
 		F98A45D21A10998200653F13 /* VString.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98A45D11A10998200653F13 /* VString.swift */; };
+		F98A45D61A10ADB600653F13 /* VFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98A45D51A10ADB600653F13 /* VFileManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		F98A45CF1A10947B00653F13 /* VEColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VEColor.swift; sourceTree = "<group>"; };
 		F98A45D11A10998200653F13 /* VString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VString.swift; sourceTree = "<group>"; };
 		F98A45D31A10A29F00653F13 /* vkit-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "vkit-Bridging-Header.h"; sourceTree = "<group>"; };
+		F98A45D51A10ADB600653F13 /* VFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VFileManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				F98A45D31A10A29F00653F13 /* vkit-Bridging-Header.h */,
+				F98A45D41A10AD9900653F13 /* System */,
 				F98A45C71A108CE500653F13 /* Extensions */,
 			);
 			path = VKit;
@@ -161,6 +164,14 @@
 				F98A45CF1A10947B00653F13 /* VEColor.swift */,
 			);
 			name = Extensions;
+			sourceTree = "<group>";
+		};
+		F98A45D41A10AD9900653F13 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				F98A45D51A10ADB600653F13 /* VFileManager.swift */,
+			);
+			name = System;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +276,7 @@
 			files = (
 				F98A45D21A10998200653F13 /* VString.swift in Sources */,
 				F98A45A71A108C4B00653F13 /* AppDelegate.swift in Sources */,
+				F98A45D61A10ADB600653F13 /* VFileManager.swift in Sources */,
 				F98A45CB1A10923000653F13 /* ExampleController.swift in Sources */,
 				F98A45D01A10947B00653F13 /* VEColor.swift in Sources */,
 				F98A45C91A108D0800653F13 /* VColor.swift in Sources */,

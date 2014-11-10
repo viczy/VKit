@@ -9,6 +9,16 @@
 import UIKit
 
 extension UIColor {
+
+/**
+* @brief
+*
+* Detailed
+* @param[in]
+* @param[out] N/A
+* @return
+* @note
+*/
     convenience init(rgba: String) {
         var red:   CGFloat = 0.0
         var green: CGFloat = 0.0
@@ -42,6 +52,15 @@ extension UIColor {
         self.init(red:red, green:green, blue:blue, alpha:alpha)
     }
 
+/**
+* @brief
+*
+* Detailed
+* @param[in]
+* @param[out] N/A
+* @return
+* @note
+*/
     convenience init(intRed: NSInteger, intGreen: NSInteger, intBlue: NSInteger, alpha: CGFloat) {
         var red:   CGFloat = CGFloat(intRed) / 255.0
         var green: CGFloat = CGFloat(intGreen) / 255.0
