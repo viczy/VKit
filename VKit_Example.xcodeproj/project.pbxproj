@@ -59,8 +59,8 @@
 		F9B70AED1A105A0900BA6CDC = {
 			isa = PBXGroup;
 			children = (
-				F9B70AF81A105A0900BA6CDC /* VKit */,
-				F9B70B0E1A105A0900BA6CDC /* VKitTests */,
+				F9B70AF81A105A0900BA6CDC /* VKit_Example */,
+				F9B70B0E1A105A0900BA6CDC /* VKit_ExampleTests */,
 				F9B70AF71A105A0900BA6CDC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,7 +74,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F9B70AF81A105A0900BA6CDC /* VKit */ = {
+		F9B70AF81A105A0900BA6CDC /* VKit_Example */ = {
 			isa = PBXGroup;
 			children = (
 				F9B70AFB1A105A0900BA6CDC /* AppDelegate.swift */,
@@ -84,6 +84,7 @@
 				F9B70B041A105A0900BA6CDC /* LaunchScreen.xib */,
 				F9B70AF91A105A0900BA6CDC /* Supporting Files */,
 			);
+			name = VKit_Example;
 			path = VKit;
 			sourceTree = "<group>";
 		};
@@ -95,12 +96,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F9B70B0E1A105A0900BA6CDC /* VKitTests */ = {
+		F9B70B0E1A105A0900BA6CDC /* VKit_ExampleTests */ = {
 			isa = PBXGroup;
 			children = (
 				F9B70B111A105A0900BA6CDC /* VKitTests.swift */,
 				F9B70B0F1A105A0900BA6CDC /* Supporting Files */,
 			);
+			name = VKit_ExampleTests;
 			path = VKitTests;
 			sourceTree = "<group>";
 		};
