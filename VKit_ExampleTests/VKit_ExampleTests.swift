@@ -1,6 +1,6 @@
 //
-//  VKitTests.swift
-//  VKitTests
+//  VKit_ExampleTests.swift
+//  VKit_ExampleTests
 //
 //  Created by Vic Zhou on 11/10/14.
 //  Copyright (c) 2014 everycode. All rights reserved.
@@ -9,7 +9,7 @@
 import UIKit
 import XCTest
 
-class VKitTests: XCTestCase {
+class VKit_ExampleTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

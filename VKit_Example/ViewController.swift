@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  VKit
+//  VKit_Example
 //
 //  Created by Vic Zhou on 11/10/14.
 //  Copyright (c) 2014 everycode. All rights reserved.
