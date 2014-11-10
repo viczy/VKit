@@ -26,14 +26,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F9B70AF61A105A0900BA6CDC /* VKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9B70AF61A105A0900BA6CDC /* VKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9B70AFA1A105A0900BA6CDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9B70AFB1A105A0900BA6CDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9B70AFD1A105A0900BA6CDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F9B70B001A105A0900BA6CDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F9B70B021A105A0900BA6CDC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F9B70B051A105A0900BA6CDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		F9B70B0B1A105A0900BA6CDC /* VKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9B70B0B1A105A0900BA6CDC /* VKit_ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VKit_ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9B70B101A105A0900BA6CDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9B70B111A105A0900BA6CDC /* VKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKitTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,8 +68,8 @@
 		F9B70AF71A105A0900BA6CDC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F9B70AF61A105A0900BA6CDC /* VKit.app */,
-				F9B70B0B1A105A0900BA6CDC /* VKitTests.xctest */,
+				F9B70AF61A105A0900BA6CDC /* VKit_Example.app */,
+				F9B70B0B1A105A0900BA6CDC /* VKit_ExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,9 +115,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F9B70AF51A105A0900BA6CDC /* VKit */ = {
+		F9B70AF51A105A0900BA6CDC /* VKit_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F9B70B151A105A0900BA6CDC /* Build configuration list for PBXNativeTarget "VKit" */;
+			buildConfigurationList = F9B70B151A105A0900BA6CDC /* Build configuration list for PBXNativeTarget "VKit_Example" */;
 			buildPhases = (
 				F9B70AF21A105A0900BA6CDC /* Sources */,
 				F9B70AF31A105A0900BA6CDC /* Frameworks */,
@@ -127,14 +127,14 @@
 			);
 			dependencies = (
 			);
-			name = VKit;
+			name = VKit_Example;
 			productName = VKit;
-			productReference = F9B70AF61A105A0900BA6CDC /* VKit.app */;
+			productReference = F9B70AF61A105A0900BA6CDC /* VKit_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F9B70B0A1A105A0900BA6CDC /* VKitTests */ = {
+		F9B70B0A1A105A0900BA6CDC /* VKit_ExampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F9B70B181A105A0900BA6CDC /* Build configuration list for PBXNativeTarget "VKitTests" */;
+			buildConfigurationList = F9B70B181A105A0900BA6CDC /* Build configuration list for PBXNativeTarget "VKit_ExampleTests" */;
 			buildPhases = (
 				F9B70B071A105A0900BA6CDC /* Sources */,
 				F9B70B081A105A0900BA6CDC /* Frameworks */,
@@ -145,9 +145,9 @@
 			dependencies = (
 				F9B70B0D1A105A0900BA6CDC /* PBXTargetDependency */,
 			);
-			name = VKitTests;
+			name = VKit_ExampleTests;
 			productName = VKitTests;
-			productReference = F9B70B0B1A105A0900BA6CDC /* VKitTests.xctest */;
+			productReference = F9B70B0B1A105A0900BA6CDC /* VKit_ExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -168,7 +168,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F9B70AF11A105A0900BA6CDC /* Build configuration list for PBXProject "VKit" */;
+			buildConfigurationList = F9B70AF11A105A0900BA6CDC /* Build configuration list for PBXProject "VKit_Example" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -181,8 +181,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F9B70AF51A105A0900BA6CDC /* VKit */,
-				F9B70B0A1A105A0900BA6CDC /* VKitTests */,
+				F9B70AF51A105A0900BA6CDC /* VKit_Example */,
+				F9B70B0A1A105A0900BA6CDC /* VKit_ExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -230,7 +230,7 @@
 /* Begin PBXTargetDependency section */
 		F9B70B0D1A105A0900BA6CDC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F9B70AF51A105A0900BA6CDC /* VKit */;
+			target = F9B70AF51A105A0900BA6CDC /* VKit_Example */;
 			targetProxy = F9B70B0C1A105A0900BA6CDC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -338,7 +338,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = VKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = VKit_Example;
 			};
 			name = Debug;
 		};
@@ -348,7 +348,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = VKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = VKit_Example;
 			};
 			name = Release;
 		};
@@ -366,7 +366,7 @@
 				);
 				INFOPLIST_FILE = VKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = VKit_ExampleTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VKit.app/VKit";
 			};
 			name = Debug;
@@ -381,7 +381,7 @@
 				);
 				INFOPLIST_FILE = VKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = VKit_ExampleTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VKit.app/VKit";
 			};
 			name = Release;
@@ -389,7 +389,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F9B70AF11A105A0900BA6CDC /* Build configuration list for PBXProject "VKit" */ = {
+		F9B70AF11A105A0900BA6CDC /* Build configuration list for PBXProject "VKit_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F9B70B131A105A0900BA6CDC /* Debug */,
@@ -398,21 +398,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F9B70B151A105A0900BA6CDC /* Build configuration list for PBXNativeTarget "VKit" */ = {
+		F9B70B151A105A0900BA6CDC /* Build configuration list for PBXNativeTarget "VKit_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F9B70B161A105A0900BA6CDC /* Debug */,
 				F9B70B171A105A0900BA6CDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		F9B70B181A105A0900BA6CDC /* Build configuration list for PBXNativeTarget "VKitTests" */ = {
+		F9B70B181A105A0900BA6CDC /* Build configuration list for PBXNativeTarget "VKit_ExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F9B70B191A105A0900BA6CDC /* Debug */,
 				F9B70B1A1A105A0900BA6CDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
