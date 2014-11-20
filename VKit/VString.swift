@@ -36,4 +36,20 @@ extension String {
         
         return String(format: hash)
     }
+
+
+/**
+* @brief 字符串中特殊符号的处理
+*
+* Detailed
+* @param[in]  含有特殊符号的字符串
+* @param[out] N/A
+* @return  处理好特殊字符的字符串
+* @note
+*/
+
+//    func specialCharTransform() -> String? {
+//
+//    }
+
 }
