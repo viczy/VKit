@@ -27,8 +27,8 @@ class ExampleController: UITableViewController, UITableViewDataSource, UITableVi
         var cell:UITableViewCell? = tableView.dequeueReusableCellWithIdentifier(cellIdentifier, forIndexPath: indexPath) as? UITableViewCell
 
         if let myCell = cell {
-            myCell.textLabel.textColor = UIColor.titleColor()
-            myCell.textLabel.text = "UIColor"
+            myCell.textLabel?.textColor = UIColor.titleColor()
+            myCell.textLabel?.text = "UIColor"
         }
 
         return cell!
@@ -36,7 +36,7 @@ class ExampleController: UITableViewController, UITableViewDataSource, UITableVi
 
     // MARK: UITableViewDelegate
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        //
+        tableView.deselectRowAtIndexPath(indexPath, animated: true)
     }
 }
 
