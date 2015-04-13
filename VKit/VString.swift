@@ -13,6 +13,7 @@ extension String {
 /**
 * @brief
 * 配置：buile settings/Objective-c bridging header/ +($(SRCROOT)/VKit/vkit-Bridging-Header.h)
+    #import <CommonCrypto/CommonCrypto.h>
 * Detailed
 * @param[in]
 * @param[out] N/A
