@@ -7,7 +7,8 @@
 //
 
 //md5
+/* copy to you bridge header
 #import <CommonCrypto/CommonCrypto.h>
-
+*/
 
 
