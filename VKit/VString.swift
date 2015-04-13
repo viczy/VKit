@@ -20,6 +20,7 @@ extension String {
 * @return
 * @note
 */
+     /*please copy to you file
     func md5() -> String! {
         let str = self.cStringUsingEncoding(NSUTF8StringEncoding)
         let strLen = CUnsignedInt(self.lengthOfBytesUsingEncoding(NSUTF8StringEncoding))
@@ -37,7 +38,7 @@ extension String {
         
         return String(format: hash as String)
     }
-
+    */
 
 /**
 * @brief 字符串中特殊符号的处理
