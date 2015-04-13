@@ -9,8 +9,6 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, '8.0'
 
-  s.source_files = 'Source/*'
-
   s.source_files = "Source/*.swift"
   s.frameworks = ''
   s.requires_arc = true
