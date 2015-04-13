@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIImage {
+public extension UIImage {
 
 /**
 * @brief
@@ -19,7 +19,7 @@ extension UIImage {
 * @return clipped-image
 * @note
 */
-    func imageZoom(size:CGSize) -> UIImage {
+    public func imageZoom(size:CGSize) -> UIImage {
         var imageSize:CGSize = self.size
         var contrainerRect: CGRect
         if (imageSize.width <= size.width) {//width longer

@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIColor {
+public extension UIColor {
 
 /**
 * @brief
@@ -20,7 +20,7 @@ extension UIColor {
 * @note
 */
 
-    convenience init(rgba: String) {
+    public convenience init(rgba: String) {
         var red:   CGFloat = 0.0
         var green: CGFloat = 0.0
         var blue:  CGFloat = 0.0
@@ -62,7 +62,7 @@ extension UIColor {
 * @return
 * @note
 */
-    convenience init(intRed: NSInteger, intGreen: NSInteger, intBlue: NSInteger, alpha: CGFloat) {
+    public convenience init(intRed: NSInteger, intGreen: NSInteger, intBlue: NSInteger, alpha: CGFloat) {
         var red:   CGFloat = CGFloat(intRed) / 255.0
         var green: CGFloat = CGFloat(intGreen) / 255.0
         var blue:  CGFloat = CGFloat(intBlue) / 255.0

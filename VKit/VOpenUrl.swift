@@ -8,7 +8,7 @@
 
 import UIKit
 
-class VOpenUrl: NSObject {
+public class VOpenUrl: NSObject {
 
 /**
 * @brief Application跳转
@@ -20,7 +20,7 @@ class VOpenUrl: NSObject {
 * @note
 */
 
-    class func openAnyObject(anyobject:AnyObject) {
+    public class func openAnyObject(anyobject:AnyObject) {
         if let url = anyobject as? NSURL {
             UIApplication.sharedApplication().openURL(url)
             return
@@ -47,7 +47,7 @@ class VOpenUrl: NSObject {
 * @note
 */
 
-    class func openAppStoreHomepage(appid:NSInteger) {
+    public class func openAppStoreHomepage(appid:NSInteger) {
         var path = NSString(format: "itms-apps://phobos.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=%u", appid)
         self.openAnyObject(path)
     }
@@ -62,7 +62,7 @@ class VOpenUrl: NSObject {
 * @note
 */
 
-    class func openAppStoreCommentPage(appid:NSInteger) {
+    public class func openAppStoreCommentPage(appid:NSInteger) {
         var path = NSString(format: "itms-apps://phobos.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=%u", appid)
         self.openAnyObject(path)
     }
@@ -77,7 +77,7 @@ class VOpenUrl: NSObject {
 * @return  N/A
 * @note
 */
-    class func openBrowser(link:NSString) {
+    public class func openBrowser(link:NSString) {
         self.openAnyObject(link)
     }
 
@@ -92,7 +92,7 @@ class VOpenUrl: NSObject {
 * @note
 */
 
-    class func openPhone(phonenumber:NSString) {
+    public class func openPhone(phonenumber:NSString) {
         var phonePath = NSString(format: "tel://%@", phonenumber)
         self.openAnyObject(phonePath)
     }
@@ -108,7 +108,7 @@ class VOpenUrl: NSObject {
 * @note
 */
 
-    class func openSMS(phonenumber:NSString) {
+    public class func openSMS(phonenumber:NSString) {
         var smsPath = NSString(format: "sms://%@", phonenumber)
         self.openAnyObject(smsPath)
     }
@@ -124,7 +124,7 @@ class VOpenUrl: NSObject {
 * @note
 */
 
-    class func openEmail(email:NSString) {
+    public class func openEmail(email:NSString) {
         var emailPath = NSString(format: "mailto://%@", email)
         self.openAnyObject(emailPath)
     }
@@ -140,7 +140,7 @@ class VOpenUrl: NSObject {
 * @note
 */
 
-    class func openGoogleMap(address:NSString) {
+    public class func openGoogleMap(address:NSString) {
         var mapPath = NSString(format: "http://maps.google.com/maps?q=%@", address)
         self.openAnyObject(mapPath)
     }
