@@ -5,12 +5,12 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/viczy/VKit"
   s.license     	 = 'MIT'
   s.author           = { "vic" => "viczy@ymail.com" }
-  s.source           = { :git => "https://github.com/viczy/VKit.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/viczy/VKit.git", :tag => s.version }
 
-  s.platform     = :ios, '8.0'
+  s.ios.deployment_target = '8.0'
 
-  s.source_files = "Source/*.swift"
-  s.frameworks = ''
+  s.source_files = 'Source/*.swift'
+
   s.requires_arc = true
 
 end
