@@ -19,7 +19,7 @@ class VFileManager: NSObject {
 * @note
 */
 
-    class func fileExist(path:NSString) -> Bool{
+    class func fileExist(path:String) -> Bool{
         let fileManager = NSFileManager.defaultManager()
         return fileManager.fileExistsAtPath(path)
     }
@@ -33,7 +33,7 @@ class VFileManager: NSObject {
 * @return  是否删除成功
 * @note
 */
-    class func removeFile(path:NSString) -> Bool {
+    class func removeFile(path:String) -> Bool {
         var error:NSError?
         let fileManager = NSFileManager.defaultManager()
         if (fileManager.fileExistsAtPath(path)) {
@@ -57,10 +57,10 @@ class VFileManager: NSObject {
 * @note
 */
 
-    class func makeDir(path:NSString) -> Bool {
+    class func makeDir(path:String) -> Bool {
         var error:NSError?
         let fileManager = NSFileManager.defaultManager()
-        fileManager.createDirectoryAtPath(path, withIntermediateDirectories:true, attributes:nil, error:&error)
+        fileManager.createDirectoryAtPath(path, withIntermediateDirectories: true, attributes: nil, error: &error)
         if let myError = error {
             return false
         }
@@ -77,8 +77,8 @@ class VFileManager: NSObject {
 * @note
 */
 
-    class func getDocumentsPath() -> NSString! {
-        let documentsPath = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0] as NSString
+    class func getDocumentsPath() -> String {
+        let documentsPath = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0] as! String
         return documentsPath
     }
 
@@ -93,8 +93,8 @@ class VFileManager: NSObject {
 * @note
 */
 
-    class func getCachesPath() -> NSString! {
-        let cachesPath = NSSearchPathForDirectoriesInDomains(.CachesDirectory, .UserDomainMask, true)[0] as NSString
+    class func getCachesPath() -> String! {
+        let cachesPath = NSSearchPathForDirectoriesInDomains(.CachesDirectory, .UserDomainMask, true)[0] as! String
         return cachesPath
     }
 
@@ -109,7 +109,7 @@ class VFileManager: NSObject {
 * @note
 */
 
-    class func getFilePathInFolder(folderpath:NSString, filename:NSString) ->NSString {
+    class func getFilePathInFolder(folderpath:String, filename:String) ->String {
         var thirdPath = folderpath.stringByAppendingPathComponent(filename)
         return thirdPath
     }
@@ -124,7 +124,7 @@ class VFileManager: NSObject {
 * @note
 */
 
-    class func getFilePathInDocuments(file:NSString) -> NSString {
+    class func getFilePathInDocuments(file:String) -> String {
         var thirdPath = self.getFilePathInFolder(self.getDocumentsPath(), filename: file)
         return thirdPath
     }
@@ -140,7 +140,7 @@ class VFileManager: NSObject {
 * @note
 */
 
-    class func getFilePathInCaches(file:NSString) -> NSString {
+    class func getFilePathInCaches(file:String) -> String {
         var thirdPath = self.getFilePathInFolder(self.getCachesPath(), filename: file)
         return thirdPath
     }
