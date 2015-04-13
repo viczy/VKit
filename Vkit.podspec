@@ -11,8 +11,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Source/*'
 
-  s.source_files = 'Source/*.{h,m}'
-  s.public_header_files = 'Source/*.h'
+  s.source_files = "Source/*.swift"
   s.frameworks = ''
   s.requires_arc = true
 
