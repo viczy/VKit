@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F92BC3CA1A79DA5000D0C7F6 /* VImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92BC3C91A79DA5000D0C7F6 /* VImage.swift */; };
+		F97EB0D71A1DD4F300B226ED /* VOpenUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97EB0D61A1DD4F300B226ED /* VOpenUrl.swift */; };
 		F98A45A71A108C4B00653F13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98A45A61A108C4B00653F13 /* AppDelegate.swift */; };
-		F98A45A91A108C4B00653F13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98A45A81A108C4B00653F13 /* ViewController.swift */; };
 		F98A45AC1A108C4B00653F13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F98A45AA1A108C4B00653F13 /* Main.storyboard */; };
 		F98A45AE1A108C4B00653F13 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F98A45AD1A108C4B00653F13 /* Images.xcassets */; };
 		F98A45B11A108C4B00653F13 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F98A45AF1A108C4B00653F13 /* LaunchScreen.xib */; };
 		F98A45BD1A108C4B00653F13 /* VKit_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98A45BC1A108C4B00653F13 /* VKit_ExampleTests.swift */; };
+		F98A45C91A108D0800653F13 /* VColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98A45C81A108D0800653F13 /* VColor.swift */; };
+		F98A45CB1A10923000653F13 /* ExampleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98A45CA1A10923000653F13 /* ExampleController.swift */; };
+		F98A45D01A10947B00653F13 /* VEColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98A45CF1A10947B00653F13 /* VEColor.swift */; };
+		F98A45D21A10998200653F13 /* VString.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98A45D11A10998200653F13 /* VString.swift */; };
+		F98A45D61A10ADB600653F13 /* VFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98A45D51A10ADB600653F13 /* VFileManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +32,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F92BC3C91A79DA5000D0C7F6 /* VImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VImage.swift; sourceTree = "<group>"; };
+		F97EB0D61A1DD4F300B226ED /* VOpenUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VOpenUrl.swift; sourceTree = "<group>"; };
 		F98A45A11A108C4B00653F13 /* VKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F98A45A51A108C4B00653F13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F98A45A61A108C4B00653F13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F98A45A81A108C4B00653F13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F98A45AB1A108C4B00653F13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F98A45AD1A108C4B00653F13 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F98A45B01A108C4B00653F13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F98A45B61A108C4B00653F13 /* VKit_ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VKit_ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F98A45BB1A108C4B00653F13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F98A45BC1A108C4B00653F13 /* VKit_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKit_ExampleTests.swift; sourceTree = "<group>"; };
+		F98A45C81A108D0800653F13 /* VColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VColor.swift; sourceTree = "<group>"; };
+		F98A45CA1A10923000653F13 /* ExampleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleController.swift; sourceTree = "<group>"; };
+		F98A45CF1A10947B00653F13 /* VEColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VEColor.swift; sourceTree = "<group>"; };
+		F98A45D11A10998200653F13 /* VString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VString.swift; sourceTree = "<group>"; };
+		F98A45D31A10A29F00653F13 /* vkit-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "vkit-Bridging-Header.h"; sourceTree = "<group>"; };
+		F98A45D51A10ADB600653F13 /* VFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VFileManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +72,7 @@
 		F98A45981A108C4B00653F13 = {
 			isa = PBXGroup;
 			children = (
+				F98A45C61A108CD500653F13 /* VKit */,
 				F98A45A31A108C4B00653F13 /* VKit_Example */,
 				F98A45B91A108C4B00653F13 /* VKit_ExampleTests */,
 				F98A45A21A108C4B00653F13 /* Products */,
@@ -77,9 +91,9 @@
 		F98A45A31A108C4B00653F13 /* VKit_Example */ = {
 			isa = PBXGroup;
 			children = (
-				F98A45A61A108C4B00653F13 /* AppDelegate.swift */,
-				F98A45A81A108C4B00653F13 /* ViewController.swift */,
-				F98A45AA1A108C4B00653F13 /* Main.storyboard */,
+				F98A45CE1A10946400653F13 /* Extensions */,
+				F98A45CD1A10924400653F13 /* Controllers */,
+				F98A45CC1A10923700653F13 /* Storyboards */,
 				F98A45AD1A108C4B00653F13 /* Images.xcassets */,
 				F98A45AF1A108C4B00653F13 /* LaunchScreen.xib */,
 				F98A45A41A108C4B00653F13 /* Supporting Files */,
@@ -110,6 +124,60 @@
 				F98A45BB1A108C4B00653F13 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F98A45C61A108CD500653F13 /* VKit */ = {
+			isa = PBXGroup;
+			children = (
+				F98A45D31A10A29F00653F13 /* vkit-Bridging-Header.h */,
+				F98A45D41A10AD9900653F13 /* System */,
+				F98A45C71A108CE500653F13 /* Extensions */,
+			);
+			path = VKit;
+			sourceTree = "<group>";
+		};
+		F98A45C71A108CE500653F13 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F98A45C81A108D0800653F13 /* VColor.swift */,
+				F98A45D11A10998200653F13 /* VString.swift */,
+				F92BC3C91A79DA5000D0C7F6 /* VImage.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		F98A45CC1A10923700653F13 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F98A45AA1A108C4B00653F13 /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		F98A45CD1A10924400653F13 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F98A45A61A108C4B00653F13 /* AppDelegate.swift */,
+				F98A45CA1A10923000653F13 /* ExampleController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		F98A45CE1A10946400653F13 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F98A45CF1A10947B00653F13 /* VEColor.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		F98A45D41A10AD9900653F13 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				F98A45D51A10ADB600653F13 /* VFileManager.swift */,
+				F97EB0D61A1DD4F300B226ED /* VOpenUrl.swift */,
+			);
+			name = System;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,8 +280,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F98A45A91A108C4B00653F13 /* ViewController.swift in Sources */,
+				F92BC3CA1A79DA5000D0C7F6 /* VImage.swift in Sources */,
+				F98A45D21A10998200653F13 /* VString.swift in Sources */,
+				F97EB0D71A1DD4F300B226ED /* VOpenUrl.swift in Sources */,
 				F98A45A71A108C4B00653F13 /* AppDelegate.swift in Sources */,
+				F98A45D61A10ADB600653F13 /* VFileManager.swift in Sources */,
+				F98A45CB1A10923000653F13 /* ExampleController.swift in Sources */,
+				F98A45D01A10947B00653F13 /* VEColor.swift in Sources */,
+				F98A45C91A108D0800653F13 /* VColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +413,7 @@
 				INFOPLIST_FILE = VKit_Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/VKit/vkit-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -349,6 +424,7 @@
 				INFOPLIST_FILE = VKit_Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/VKit/vkit-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -405,6 +481,7 @@
 				F98A45C21A108C4B00653F13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F98A45C31A108C4B00653F13 /* Build configuration list for PBXNativeTarget "VKit_ExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +490,7 @@
 				F98A45C51A108C4B00653F13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
